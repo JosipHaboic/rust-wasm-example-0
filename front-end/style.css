@@ -5,7 +5,13 @@
 	--orange: #bf00ff;
 }
 
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
 html {
+	font-family: 'Fira Sans',
+	sans-serif;
 	color: var(--light);
 	padding: 0;
 }
@@ -18,6 +24,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .container {
@@ -56,16 +63,17 @@ body {
 }
 
 #output {
-	color: var(--orange);
+	color: var(--blue);
 	font-size: 4rem;
 }
 
 
 #convert-button {
 	background: var(--dark);
-	color: gray;
+	color: white;
 	outline: none;
 	border: none;
 	text-align: center;
 	font-size: 2rem;
+	width: 100%;
 }
