@@ -8,12 +8,11 @@
 
 [Parcel Bundler with zero config 🚀](https://parceljs.org/getting_started.html)
 
+### Start the example app
+
 ``` bash
 parcel ./front-end/index.html
 ```
-
-More info:
-[WASM Pack Book](https://rustwasm.github.io/wasm-pack/book/introduction.html)
 
 ### Which files to see
 
@@ -26,3 +25,6 @@ Here we import Rust compiled code and initialize application, we use byte_repr(b
 ---
 import main.js and minimal html with some basic styling
 > front-end/index.html
+---
+More info:
+[WASM Pack Book](https://rustwasm.github.io/wasm-pack/book/introduction.html)
