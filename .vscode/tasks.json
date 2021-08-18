@@ -11,7 +11,7 @@
 		{
 			"label": "Parcel Serve",
 			"type": "shell",
-			"command": " parcel ./front-end/index.html"
+			"command": "parcel ./front-end/index.html"
 		}
 	]
 }
