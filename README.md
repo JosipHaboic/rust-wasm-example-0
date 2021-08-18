@@ -26,5 +26,8 @@ Here we import Rust compiled code and initialize application, we use byte_repr(b
 import main.js and minimal html with some basic styling
 > front-end/index.html
 ---
+setup Rust project (similar to package.json) and install ueight Rust lib which we will use in JS
+> Cargo.toml
+---
 More info:
 [WASM Pack Book](https://rustwasm.github.io/wasm-pack/book/introduction.html)
